@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">秋水贴</string>
 
-    <!--Toolbar上的menu-->
-    <string name="menu_settings">设置</string>
-
     <string name="confirm">确定</string>
     <string name="cancel">取消</string>
+
+    <!--Toolbar-->
+    <string name="menu_settings">设置</string>
+    <string name="toolbar_home">主页</string>
+
+    <!--主页-->
+    <string name="photo">拍照</string>
 </resources>
