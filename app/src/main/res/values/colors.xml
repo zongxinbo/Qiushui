@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#3498DB</color>
+    <color name="colorPrimary">#C8B474</color>
+    <color name="colorPrimaryDark">#C8B474</color>
+    <color name="colorAccent">#C8B474</color>
+    <color name="colorButtonNormal">#C8B474</color>
 
     <color	name="white">#FFFFFF</color><!--白色-->
     <color	name="ivory">#FFFFF0</color><!--象牙色-->

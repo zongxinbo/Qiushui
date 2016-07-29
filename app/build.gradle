@@ -29,4 +29,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.2.0'
     apt 'com.jakewharton:butterknife-compiler:8.2.0'
     compile 'com.scottyab:secure-preferences-lib:0.1.4'
+    compile 'com.jph.takephoto:takephoto_library:2.0.0'
 }

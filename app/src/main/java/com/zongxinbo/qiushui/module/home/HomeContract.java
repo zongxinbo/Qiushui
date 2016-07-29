@@ -11,10 +11,15 @@ public abstract interface HomeContract {
 
     interface Model extends BaseModel {
 
+        void createDirectoryForQiushui();
+
     }
 
     interface View extends BaseView<HomePresenter> {
 
+        void openSetTextDialog();
+
+        void openAddCopybookDialog();
     }
 
     abstract class Presenter extends BasePresenter<HomeModel, HomeActivity> {

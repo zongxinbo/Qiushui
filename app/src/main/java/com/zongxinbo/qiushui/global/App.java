@@ -2,8 +2,11 @@ package com.zongxinbo.qiushui.global;
 
 import android.app.Application;
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Process;
+
+import java.io.File;
 
 /**
  * @author 宗新博 on 2016/5/30 21:02
@@ -13,6 +16,9 @@ public class App extends Application {
     private static Context mContext;
     private static Handler mHandler;
     private static int mMainThreadId;
+    public static File file;
+    public static File dir;
+    public static Bitmap bitmap;
 
     @Override
     public void onCreate() {

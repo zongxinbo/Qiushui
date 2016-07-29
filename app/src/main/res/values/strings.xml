@@ -9,5 +9,12 @@
     <string name="toolbar_home">主页</string>
 
     <!--主页-->
-    <string name="photo">拍照</string>
+    <string name="home_display">显示</string>
+    <string name="home_add_copybook">添加字帖</string>
+    <string name="home_please_input_add_text">请输入要添加的字</string>
+    <string name="home_please_input_search_text">请输入要搜索的字</string>
+    <string name="home_input_cannot_be_empty">输入框不能为空</string>
+    <string name="home_photo">相机拍照</string>
+    <string name="home_gallery">本地相册</string>
+    <string name="home_file">本地文件</string>
 </resources>
