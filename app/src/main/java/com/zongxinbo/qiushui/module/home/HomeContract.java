@@ -17,6 +17,8 @@ public abstract interface HomeContract {
 
     interface View extends BaseView<HomePresenter> {
 
+        void initTakePhoto();
+
         void openSetTextDialog();
 
         void openAddCopybookDialog();

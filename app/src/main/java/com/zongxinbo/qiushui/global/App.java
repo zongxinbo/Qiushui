@@ -5,6 +5,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Process;
+import android.widget.Toast;
 
 import java.io.File;
 
@@ -27,7 +28,6 @@ public class App extends Application {
         mContext = getApplicationContext();
         mHandler = new Handler();
         mMainThreadId = Process.myTid();
-
     }
 
     /**

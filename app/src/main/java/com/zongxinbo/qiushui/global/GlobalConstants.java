@@ -5,6 +5,6 @@ package com.zongxinbo.qiushui.global;
  */
 public class GlobalConstants {
 
-    public static final String CRYPT_KEY = "YUEqIA!NkEJIh87.,HH"; // 加密的key
+    public static final String COPYBOOK_SAVE_NAME = "copybook_save_name"; // 要保存的文件名
 
 }

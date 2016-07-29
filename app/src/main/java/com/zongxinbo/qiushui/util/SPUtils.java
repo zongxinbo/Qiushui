@@ -4,7 +4,6 @@ import android.content.Context;
 
 import com.securepreferences.SecurePreferences;
 import com.zongxinbo.qiushui.global.App;
-import com.zongxinbo.qiushui.global.GlobalConstants;
 
 /**
  * SharedPreferences工具类
@@ -12,9 +11,9 @@ import com.zongxinbo.qiushui.global.GlobalConstants;
  */
 public class SPUtils {
 
-    private static final String SHARE_PREFS_NAME = "xyjxc";
+    private static final String SHARE_PREFS_NAME = "qiushui";
     private static Context mContext = App.getmContext();
-    private static SecurePreferences mSp = new SecurePreferences(mContext, GlobalConstants.CRYPT_KEY, SHARE_PREFS_NAME);
+    private static SecurePreferences mSp = new SecurePreferences(mContext, "qiushui", SHARE_PREFS_NAME);
 //    private static SharedPreferences mSp = mContext.getSharedPreferences(SHARE_PREFS_NAME,
 //            mContext.MODE_PRIVATE);
 
